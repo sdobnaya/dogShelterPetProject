@@ -1,0 +1,38 @@
+.g-content{
+	max-width: 1440px;
+	width: 100%;
+	padding: 0 150px;
+
+	@media(max-width:1439px){
+		max-width: 1440px;
+		min-width: 300px;
+		width: 100%;
+	}
+}
+
+.g-content-hero{
+	margin: auto;
+}
+
+.hero-wrapper{
+	display: flex;
+	justify-content: space-between;
+	padding-top: 100px;
+}
+.hero-picture{
+	float: right;
+}
+
+.hero-picture__img{
+	max-width: 483px;
+	max-height: 483px;
+}
+
+.hero__main-title{
+	font-size: 100px;
+}
+
+.hero__second-title{
+	margin-top: 11px;
+	color: rgb(100, 100, 100);
+}

@@ -1,0 +1,33 @@
+.g-content-about{
+	justify-content: center;
+	margin: 150px auto 100px auto;
+}
+
+.about__title{
+	font-size: 70px;
+	max-width: max-content;
+	margin: auto;
+}
+
+.about-step{
+	display: flex;
+	align-items: last baseline;
+	margin-bottom: 20px;
+}
+
+.icon-wrapper{
+	margin-right: 50px;
+}
+
+.about-step__text{
+	color: rgb(100, 100, 100);
+	font-weight: 500;
+	font-size: 30px;
+	margin-top: 50px;
+}
+
+.about-step__text:not(:first-child){
+	margin-top: 50px;
+	font-weight: 500;
+	font-size: 24px;
+}

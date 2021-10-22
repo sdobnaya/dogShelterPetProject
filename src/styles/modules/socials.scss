@@ -1,0 +1,22 @@
+.socials-content{
+    position: fixed;
+    width: 100%;
+    max-width: min-content;
+    margin-top: calc(100%/10);
+}
+
+.socials-content__wrapper{
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+}
+
+.social-links{
+    margin-left: 40px;
+    margin-bottom: 20px;
+    max-width: min-content;
+}
+
+.social-icons{
+    max-width: min-content;
+}

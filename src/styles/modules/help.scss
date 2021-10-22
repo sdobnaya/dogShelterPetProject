@@ -1,0 +1,39 @@
+.g-content-help{
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+.help__main-title{
+    font-size: 70px;
+    max-width: max-content;
+    margin: auto;
+}
+
+.help__sub-title{
+    color: #646464;
+    font-size: 16px;
+    max-width: max-content;
+    margin: auto;
+}
+
+.help-content-wrapper{
+    display: flex;
+    margin-top: 65px;
+}
+
+.help-block{
+    flex: 0 1 33%;
+    padding: 40px 20px;
+}
+
+.help-block:nth-child(odd){
+    //background-color: rgb(223, 221, 221);
+}
+
+.help__small-title{
+    font-size: 24px;
+    max-width: max-content;
+    margin: auto;
+    margin-bottom: 20px;
+    //border-bottom: 2px solid grey;
+}
