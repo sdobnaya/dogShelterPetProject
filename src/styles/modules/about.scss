@@ -1,6 +1,10 @@
 .g-content-about{
 	justify-content: center;
-	margin: 150px auto 100px auto;
+	margin: 100px auto 100px auto;
+
+	// @media(max-width:1360px){
+	// 	margin: 100px auto 100px auto;
+	// }
 }
 
 .about__title{
