@@ -3,7 +3,11 @@
 	margin: 100px auto 100px auto;
 
 	// @media(max-width:1360px){
-	// 	margin: 100px auto 100px auto;
+	// 	margin: 80px auto 80px auto;
+	// }
+
+	// @media(max-width:998px){
+	// 	padding: 0 100px;
 	// }
 }
 
@@ -11,6 +15,10 @@
 	font-size: 70px;
 	max-width: max-content;
 	margin: auto;
+
+	@media(max-width:1360px){
+		font-size: 50px;
+	}
 }
 
 .about-step{

@@ -27,10 +27,20 @@
 		justify-content: center;
 	}
 
+	@media(max-width:998px){
+		padding-top: 60px;
+	}
+
+}
+
+.hero-titles{
+	// flex-grow: 0;
+	// flex-shrink: 5;
 }
 
 .hero-picture{
 	float: right;
+	// flex-grow: 5;
 
 	@media(max-width:1360px){
 		margin-left: 20px;
