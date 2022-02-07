@@ -24,6 +24,7 @@
     box-shadow: 0px 0px 50px 20px rgba(0,0,0,0.37);
     -webkit-box-shadow: 0px 0px 50px 20px rgba(0,0,0,0.37); 
 
+    //pointer-events: none;
 }
 
 .modal-contacts_list{
@@ -35,23 +36,23 @@
     margin-right: 30px;
 }
 
-.close-icon{
-    max-width:20px;
-    max-height:20px;
-    //padding:2px;
-}
+// .close-icon{
+//     max-width:20px;
+//     max-height:20px;
+//     //padding:2px;
+// }
 
-.close-icon:hover{
-    cursor:pointer;
-}
+// .close-icon:hover{
+//     cursor:pointer;
+// }
 
-.modal-contacts_close-btn{
-    display: block;
-    // min-width: 40px;
-    // min-height: 40px;
+// .modal-contacts_close-btn{
+//     display: block;
+//     // min-width: 40px;
+//     // min-height: 40px;
 
-    // max-height:40px;
+//     // max-height:40px;
 
-    width: 40px;
-    height: 40px;
-}
+//     width: 40px;
+//     height: 40px;
+// }

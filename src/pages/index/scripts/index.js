@@ -19,13 +19,14 @@ import '../../../styles/index.scss';
 })();
 
 (function () {
-    document.getElementById('modal').style.display = 'none';
-    
-    document.getElementById('close-btn_id').addEventListener('click', (event)=>{
-        document.getElementById('modal').style.display = 'none';
+    const modal = document.getElementById('modal');
+    modal.style.display = 'none';
+
+    modal.addEventListener('click', (event)=>{
+        modal.style.display = 'none';
     });
 
     document.getElementById('contacts_id').addEventListener('click', (event)=>{
-        document.getElementById('modal').style.display = 'block';
+        modal.style.display = 'block';
     });
 })();
