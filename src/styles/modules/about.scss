@@ -9,6 +9,11 @@
 	// @media(max-width:998px){
 	// 	padding: 0 100px;
 	// }
+
+	@media(max-width:576px){
+		padding: 0 20px;
+
+	}
 }
 
 .about__title{
@@ -17,7 +22,13 @@
 	margin: auto;
 
 	@media(max-width:1360px){
+		//font-size: 50px;
+		margin-bottom: 60px;
+	}
+
+	@media(max-width:998px){
 		font-size: 50px;
+
 	}
 }
 
@@ -25,10 +36,22 @@
 	display: flex;
 	align-items: last baseline;
 	margin-bottom: 20px;
+
+	@media(max-width:1360px){
+		flex-direction: column;
+		align-items: flex-start;
+		margin-bottom: 40px;
+	}
 }
 
 .icon-wrapper{
 	margin-right: 50px;
+
+	@media(max-width:1360px){
+		max-width: min-content;
+		margin: 0 auto;
+		
+	}
 }
 
 .about-step__text{
@@ -36,10 +59,38 @@
 	font-weight: 500;
 	font-size: 30px;
 	margin-top: 50px;
+
+	@media(max-width:1360px){
+		word-wrap: break-word;
+		//margin-top: 10px;
+	}
+
+	
+}
+
+.about-step__text > br  {
+
+	@media(max-width:1360px){
+		display: none;
+
+	}
+	
 }
 
 .about-step__text:not(:first-child){
 	margin-top: 50px;
 	font-weight: 500;
 	font-size: 24px;
+
+	@media(max-width:1360px){
+		margin-top: 10px;
+	}
+
 }
+
+// .pet-icon{
+// 	@media(max-width:1360px){
+// 		align-items: center;
+		
+// 	}
+// }
