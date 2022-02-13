@@ -4,7 +4,17 @@
 
 	width: 100%;
 	padding: 60px 0; //150px;
-	background-color: #5f6e34;
+	background-color: #537438;
+}
+
+.footer__greetings{
+	padding-left: 60px;
+	padding-right: 60px;
+
+	@media(max-width:576px){
+		padding-left: 20px;
+		padding-right: 20px;
+	}
 }
 
 .footer__main-title{
@@ -12,20 +22,39 @@
 	font-size: 24px;
 	color: #fff;
 	text-align: center;
+
+	padding-left: 60px;
+	padding-right: 60px;
+
+	@media(max-width:576px){
+		padding-left: 20px;
+		padding-right: 20px;
+	}
 }
 
 .footer__greetings-title{
-	margin-top: 30px;
+	margin-top: 40px;
 	color: #fff;
 	font-weight: 300;
+	margin-bottom: 10px;
 }
 
 .footer__greetings-list{
 	text-decoration: none;
 	list-style-type: none;
 	color: #fff;
+
+	
 }
 
 .footer__greetings-list{
 	padding: 0 auto;
+}
+
+.footer__greetings-list-item{
+	text-decoration:none;
+}
+
+.footer-social-link{
+	text-decoration: underline;
 }
