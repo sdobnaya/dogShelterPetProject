@@ -2,17 +2,8 @@
 	justify-content: center;
 	margin: 100px auto 100px auto;
 
-	// @media(max-width:1360px){
-	// 	margin: 80px auto 80px auto;
-	// }
-
-	// @media(max-width:998px){
-	// 	padding: 0 100px;
-	// }
-
 	@media(max-width:576px){
 		padding: 0 20px;
-
 	}
 }
 
@@ -22,7 +13,6 @@
 	margin: auto;
 
 	@media(max-width:1360px){
-		//font-size: 50px;
 		margin-bottom: 60px;
 	}
 
@@ -62,19 +52,15 @@
 
 	@media(max-width:1360px){
 		word-wrap: break-word;
-		//margin-top: 10px;
 	}
 
 	
 }
 
 .about-step__text > br  {
-
 	@media(max-width:1360px){
 		display: none;
-
 	}
-	
 }
 
 .about-step__text:not(:first-child){
@@ -87,10 +73,3 @@
 	}
 
 }
-
-// .pet-icon{
-// 	@media(max-width:1360px){
-// 		align-items: center;
-		
-// 	}
-// }
