@@ -1,7 +1,7 @@
 {
-  "name": "portfolio-project",
+  "name": "cozy-house",
   "version": "0.0.1",
-  "description": "personal portfolio project",
+  "description": "Galina's cozy house",
   "author": {
     "name": "Klepikova Valentina",
     "email": "skle.vale@gmail.com"
@@ -45,7 +45,6 @@
   "dependencies": {
     "@babel/polyfill": "^7.12.1",
     "core-js": "^3.6.5",
-    "owl.carousel": "^2.3.4",
     "serve": "^11.3.2"
   }
 }
