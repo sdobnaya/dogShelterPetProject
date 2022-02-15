@@ -37,6 +37,7 @@
 .help-content-wrapper{
     display: flex;
     margin-top: 65px;
+    //flex-direction: column;
 
     @media(max-width:1360px){
         margin-top: 35px;
@@ -86,4 +87,23 @@
 
 .help__subtitle-info{
     color: #646464;
+}
+
+table.help__table{text-decoration: none;border-collapse:collapse;width:100%;text-align:center;}
+table.help__table th{font-weight:normal;font-size:14px; color:#000000;background-color:#ffffff;}
+table.help__table td{font-size:13px;color:#000000;}
+table.help__table td,table.help__table th{white-space:pre-wrap;padding:10px 5px;line-height:13px;vertical-align: middle;border: 1px solid #c9c9c9;}
+table.help__table tr:hover{background-color:#f9fafb}
+table.help__table tr:hover td{color:#000000;cursor:default;}
+
+table.help__table{max-width: 400px; margin: 30px auto;}
+
+.help-warn{
+    padding-top: 20px;
+    border-top: 2px solid #074d1085;
+}
+
+.help-warn_link{
+    cursor: pointer;
+    text-decoration: underline;
 }

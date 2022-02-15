@@ -8,7 +8,7 @@ import '../../../styles/index.scss';
     let i = 0;
 
     function showPic(){
-        container.setAttribute('src', `img/heroSlider/${picArr[i]}`);
+        container.setAttribute('src', `img/newSlider/${picArr[i]}`);
         i++;
         if (i >= 11) {
             i = 0;
@@ -22,11 +22,17 @@ import '../../../styles/index.scss';
     const modal = document.getElementById('modal');
     modal.style.display = 'none';
 
+    const footerModal = document.getElementById('footer-social-link_id');
+
     modal.addEventListener('click', (event)=>{
         modal.style.display = 'none';
     });
 
     document.getElementById('contacts_id').addEventListener('click', (event)=>{
+        modal.style.display = 'block';
+    });
+
+    footerModal.addEventListener('click', (event)=>{
         modal.style.display = 'block';
     });
 })();

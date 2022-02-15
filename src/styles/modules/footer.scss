@@ -51,10 +51,18 @@
 	padding: 0 auto;
 }
 
-.footer__greetings-list-item{
-	text-decoration:none;
+// .footer__greetings-list-item{
+// 	text-decoration:none;
+// }
+
+.footer-social-link{
+	text-decoration: underline;
 }
 
 .footer-social-link{
+	cursor:pointer;
+}
+
+#footer__greetings-list-item_id{
 	text-decoration: underline;
 }
