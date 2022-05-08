@@ -1,5 +1,6 @@
 import '../../../styles/index.scss';
 
+let dogUpdate = 0;
 
 (function () {
     const picArr = ['11.png', '10.png','9.png','8.png','7.png','6.png','5.png','4.png','3.png','2.png','1.png'];
@@ -35,4 +36,24 @@ import '../../../styles/index.scss';
     footerModal.addEventListener('click', (event)=>{
         modal.style.display = 'block';
     });
+})();
+
+(function () {
+    const quantity = document.getElementById('dogQuantity_id');
+    
+
+    if (new Date().getDay() === 1 && dogUpdate != 1){
+        document.getElementById('dogQuantity_id').innerHTML = +document.getElementById('dogQuantity_id').innerHTML + (Math.floor(Math.random() * 5)) + 1;
+        dogUpdate = 1;
+    }
+
+    if (new Date().getDay() != 1 && dogUpdate == 1){
+        dogUpdate = 0;
+    }
+
+    // document.getElementById('dogQuantity_id').addEventListener('click', ()=>{
+    //     console.log(new Date().getDay() === 1 && dogUpdate != 1);
+    //     console.log(new Date().getDay());
+    //     console.log(dogUpdate);
+    // });
 })();
