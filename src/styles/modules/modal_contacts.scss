@@ -15,7 +15,7 @@
     top: 30%;
     background: #fff;
     min-width: fit-content;
-    max-width: 500px;
+    max-width: 370px;
     margin: 0 auto;
     padding: 30px 60px;
     
@@ -28,9 +28,8 @@
         padding: 30px 30px;
 	}
 
-    @media(max-width:532px){
-		margin-left: 20px;
-		margin-right: 20px;
+    @media(max-width:400px){
+        max-width: fit-content;
 	}
 }
 
@@ -38,13 +37,18 @@
     display: flex;
     justify-content: center;
 
-    margin-bottom: 35px;
+    @media(max-width:400px){
+        display: grid;
+        grid-template-columns: 55px 55px; 
+        grid-template-rows: 1fr 1fr; 
+        gap: 20px 20px; 
+	}
 }
 
+.social-links{
+    max-width: max-content;
+}
 .social-links:not(:last-child){
     margin-right: 30px;
-}
 
-.contact-me{
-    text-decoration: underline;
 }
