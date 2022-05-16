@@ -51,9 +51,5 @@ let dogUpdate = 0;
         dogUpdate = 0;
     }
 
-    // document.getElementById('dogQuantity_id').addEventListener('click', ()=>{
-    //     console.log(new Date().getDay() === 1 && dogUpdate != 1);
-    //     console.log(new Date().getDay());
-    //     console.log(dogUpdate);
-    // });
+
 })();
