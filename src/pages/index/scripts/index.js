@@ -3,7 +3,8 @@ import '../../../styles/index.scss';
 let dogUpdate = 0;
 
 (function () {
-    const picArr = ['11.png', '10.png','9.png','8.png','7.png','6.png','5.png','4.png','3.png','2.png','1.png'];
+    //const picArr = ['11.png', '10.png','9.png','8.png','7.png','6.png','5.png','4.png','3.png','2.png','1.png'];
+    const picArr = ['11.webp', '10.webp','9.webp','8.webp','7.webp','6.webp','5.webp','4.webp','3.webp','2.webp','1.webp'];
     const container = document.getElementById('hero-pic__id');
 
     let i = 0;
@@ -41,7 +42,6 @@ let dogUpdate = 0;
 (function () {
     const quantity = document.getElementById('dogQuantity_id');
     
-
     if (new Date().getDay() === 1 && dogUpdate != 1){
         document.getElementById('dogQuantity_id').innerHTML = +document.getElementById('dogQuantity_id').innerHTML + (Math.floor(Math.random() * 5)) + 1;
         dogUpdate = 1;
@@ -50,6 +50,5 @@ let dogUpdate = 0;
     if (new Date().getDay() != 1 && dogUpdate == 1){
         dogUpdate = 0;
     }
-
 
 })();
