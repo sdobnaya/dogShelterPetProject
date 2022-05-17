@@ -1,0 +1,8 @@
+{
+  "icons": [
+    { "src": "/public/favicons/pata16.png", "type": "image/png", "sizes": "16x16" },
+    { "src": "/public/favicons/pata32.png", "type": "image/png", "sizes": "32x32" },
+    { "src": "/public/favicons/pata64.png", "type": "image/png", "sizes": "64x64" },
+    { "src": "/public/favicons/pata256.png", "type": "image/png", "sizes": "256x256" }
+  ]
+}

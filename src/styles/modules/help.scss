@@ -1,9 +1,14 @@
 .g-content-help{
-    margin: 0 auto;
-    margin-top: 80px;
+    margin: 100px auto;
 
+    @media(max-width:998px){
+        margin: 80px auto;
+	}
+
+    
     @media(max-width:576px){
-        padding: 20px;
+        margin-top: 60px;
+        padding: 0px 20px;
 	}
 }
 
@@ -37,16 +42,17 @@
 .help-content-wrapper{
     display: flex;
     margin-top: 65px;
-    //flex-direction: column;
     padding-bottom: 50px;
 
     @media(max-width:1360px){
         margin-top: 35px;
+        padding-bottom: 0px;
 	}
 
     @media(max-width:998px){
         flex-direction: column;
         margin-top: 65px;
+        padding-bottom: 50pxs;
 	}
 
     @media(max-width:998px){
@@ -94,50 +100,17 @@
 .help__subtitle-info{
     color: #646464;
 }
-///
-table.help__table{
-    text-decoration: none;
-    border-collapse:collapse;
-    width:100%;
-    text-align:center;
-    display:none;
-}
-
-table.help__table th{
-    font-weight:normal;
-    font-size:14px;
-    color:#000000;
-    background-color:#ffffff;
-}
-
-table.help__table td{
-    font-size:13px;
-    color:#000000;
-}
-
-table.help__table td,table.help__table th{
-    white-space:pre-wrap;
-    padding:10px 5px;
-    line-height:13px;
-    vertical-align: middle;
-    border: 1px solid #c9c9c9;
-}
-
-table.help__table tr:hover{
-    background-color:#f9fafb;
-}
-
-table.help__table tr:hover td{
-    color:#000000;
-    cursor:default;
-}
-///
-
-table.help__table{max-width: 400px; margin: 30px auto;}
 
 .help-warn{
     padding-top: 40px;
     border-top: 2px solid #074d1085;
+
+    @media(max-width:998px){
+        display: none;
+
+        padding: 20px;
+        border: 2px solid #074d1085;
+	}
 }
 
 .help-warn_link{
@@ -145,13 +118,19 @@ table.help__table{max-width: 400px; margin: 30px auto;}
     text-decoration: underline;
 }
 
-
-
 .help__payment-data{
     text-align: center;
     font-size: 50px;
     font-weight: 300;
     padding-bottom: 20px;
+
+    @media(max-width:998px){
+        display: none;
+	}
+
+    @media(max-width:768px){
+        text-align: start;
+	}
 }
 
 .payment-data__sber:before{
@@ -180,9 +159,40 @@ table.help__table{max-width: 400px; margin: 30px auto;}
 
 .payment-data__u-money{
     margin-left: -44px;
+
+    @media(max-width:768px){
+        margin-left: 0px;
+	}
 }
 
 .payment-data{
     padding-bottom: 15px;
     display: inline-block;
+}
+
+.help-money__payment-data{
+    display:none;
+
+    @media(max-width:998px){
+        display: block;
+	}
+    
+}
+
+.payment-data__wrapper{
+    padding-top: 35px;
+}
+
+.money__payment-sber, .money__payment-umoney{
+    @media(max-width:768px){
+        font-size: 6vw;
+	}
+}
+
+.money__payment-sber:before, .money__payment-umoney:before{
+    @media(max-width:768px){
+        font-size: 4vw;
+        margin-right: 10px;
+        top: -7%;
+	}
 }
